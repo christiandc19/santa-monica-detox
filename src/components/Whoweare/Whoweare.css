@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+.wwa {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    gap: 2rem;
+    background-color: #f8f9fa;
+}
+
+.wwa .left {
+    width: 500px;
+    padding: 1rem;
+}
+
+.wwa .left img {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.wwa .right {
+    width: 600px;
+    padding: 1rem;
+
+}
+
+.wwa .right p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.wwa .right h2 {
+    font-size: 3.5rem;
+    color: var(--primary-text);
+    font-family: 'Bacasime Antique', serif;
+}
+
+.wwa .right h3 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding: 1rem 0;
+    line-height: 2rem;
+    color: var(--primary-color);
+}
+
+
+.wwa .right span {
+    color: var(--secondary-color);
+}
+
+
+
+
+@media screen and (max-width:940px) {
+
+    .wwa {
+        flex-wrap: wrap-reverse;
+    }
+
+    .wwa .right {
+        width: 100vw;
+        padding: 2rem;
+    }
+    .wwa .left {
+        width: 90vw;
+        padding: 2rem;
+    }
+
+    .wwa .right h2 {
+        font-size: 2rem;
+    }
+
+    .wwa .right p {
+        font-size: 14px;
+    }
+    
+}
+
+

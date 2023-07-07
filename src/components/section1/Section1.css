@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+.section1 {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+}
+
+.section1 h1 {
+    font-size: 3rem;
+    font-family: 'Bacasime Antique', serif;
+    color: var(--primary-text);
+}
+
+.section1-header {
+    text-align: center;
+    padding: 1rem;
+}
+
+.section1-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.section1-card {
+    width: 25%;
+}
+
+.section1-card img {
+    width: 100%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+@media screen and (max-width:800px) {
+    .section1-card {
+        width: 80%;
+    }
+
+    .section1 h1 {
+        font-size: 1.5rem;
+    }
+    
+}
