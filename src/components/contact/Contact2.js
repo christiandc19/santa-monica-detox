@@ -13,8 +13,17 @@ const ContactForm = () => {
         e.preventDefault();
 
 
+                // Popup message after send button is clicked
+                const feedbackEl = document.querySelector(".feedback");
+                feedbackEl.setAttribute("class", "feedback");
+                setTimeout(function() {
+                feedbackEl.setAttribute("class", "feedback hidden");
+                }, 3000);
+
+
+
         //    Service Id        Template Id                 Public Key (Account Tab) 
-        emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
+        emailjs.sendForm('service_hsunksm', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -30,7 +39,7 @@ const ContactForm = () => {
 
     <div className="contact2-header contact2-container">
         <h1>DO YOU NEED URGENT HELP?</h1>
-        <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+        <p>Our Addiction and Recovery Support team is available to assist you.</p>
     </div>
 
 <div class="contact2-container">
@@ -76,6 +85,14 @@ const ContactForm = () => {
 
         </div>
         <input className="contact-btn" type="submit" value="Submit" />
+
+        <div className="textarea2 feedback hidden">
+                    <textarea name="message2" cols="30" rows="3" required>Message Sent to Santa Monica Detox Center!</textarea>
+        </div>
+
+
+
+
       </form>
     </div>
     </div>

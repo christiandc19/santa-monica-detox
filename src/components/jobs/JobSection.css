@@ -5,17 +5,35 @@
     width: 100%;
     position: relative;
     background: rgba(255, 255, 255, 0);
+    padding: 3rem 0;
 }
 
-.job-section .content {
+.job-section-content {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     text-align: center;
     padding: 1rem;
+    gap: 1rem;
 }
 
-.job-section p {
+.job-section-left {
+    width: 50%;
+    padding: 1rem;
+}
+
+.job-section-right {
+    width: 400px;
+    padding: 1rem;
+}
+
+.job-section-right img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.job-section-content p {
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     color: rgb(0, 0, 0);
@@ -25,7 +43,6 @@
 }
 
 .job-section h1 {
-    padding: 2rem 0;
     font-size: 2rem;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -35,7 +52,7 @@
 
 
 @media screen and (max-width: 940px) {
-    .job-section {
+    .job-section-left {
         width: 100%;
     }
 
@@ -43,7 +60,7 @@
         font-size: 25px;
     }
 
-    .job-section p {
+    .job-section-left p {
         font-size: 15px;
     }
 }
