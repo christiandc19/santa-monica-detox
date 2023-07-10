@@ -14,7 +14,7 @@
   .insurance:before {
     content: '';
     position: absolute;
-    background: url('../../assets/menu-bg-insurance.jpg') no-repeat center bottom/cover;
+    background: url('../../assets/menu-bg-insurance.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -23,7 +23,7 @@
 .insurance .insurance-content {
     display: block;
     position: absolute;
-    top: 25%;
+    top: 30%;
     padding: 1rem;
 }
 

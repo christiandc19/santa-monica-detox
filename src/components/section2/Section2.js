@@ -1,58 +1,79 @@
 import React from 'react'
 import './Section2.css'
-
-import { RiNurseLine } from 'react-icons/ri';
-import { BsGear } from 'react-icons/bs';
-import { BiSupport } from 'react-icons/bi';
-
+import home6 from '../../assets/home6.png'
+import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom';
+import { Link as LinkRoll } from 'react-scroll'
 
 
 const Section2 = () => {
   return (
     <>
       <div className='section2'>
-        <div className='content container'>
-            <h1>We Have Years Professional Experience in Psychology and Substance Abuse Counseling</h1>
-            <p>At Santa Monica Detox, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment.</p>
+        <div className='section2-content container'>
+            <h2>Detox Programs</h2>
+            <h1>Residential Drug Detox and Rehab Programs</h1>
         </div>
+
+        <div className='section2-flex container'>
+            <Fade left>
+            <div className='section2-flex-left'>
+                <h1>Comfortable, Compassionate Medical Detox</h1>
+                <p>Our goal is to make the detox process as safe and comfortable as possible. Medical detoxification, or medical detox, is the first step in recovery from drug or alcohol addiction to safely manage withdrawal symptoms in individuals who have become physically dependent on a substance.</p> 
+                <p>Withdrawal from drugs or alcohol can be life-threatening if not properly supervised by professionals. We offer a medically supervised detox that provides individualized treatment and around-the-clock care. Upon intake, clients meet with a physician who conducts a comprehensive evaluation and designs an individualized detoxification protocol using medication-assisted therapy.</p>
+
+                <div className='section1-btn'>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                <Link to="/treatment">
+                <button type="button" class="btn btn-outline-primary">Learn More</button>
+                </Link>
+                </LinkRoll>
+                </div>
+
+            </div>
+            </Fade>
+
+            <Fade right>
+            <div className='section2-flex-right'>
+            <img src={home6} alt="Conselling Session with a patient" loading="lazy" />
+            </div>
+            </Fade>
         </div>
 
 
-        <div className='cards'>
-                    <div className='card'>
-                        <div className='icon'>
-                            <RiNurseLine/> 
-                        </div>
-
-                        <div>
-                            <h1>DEDICATED STAFF.</h1><br />
-                            <p>The medical professionals on our team are completely dedicated to your recovery.</p>
-                        </div>
-                    </div> 
 
 
-                    <div className='card'>
-                        <div className='icon'>
-                            <BsGear/> 
-                        </div>
 
-                        <div>
-                            <h1>PROVEN METHODS.</h1> <br />
-                            <p>Our treatment methods are solely based on proven research and science-based evidence.</p>
-                        </div>
-                    </div> 
 
-                    <div className='card'>
-                        <div className='icon'>
-                            <BiSupport/> 
-                        </div>
 
-                        <div>
-                            <h1>24/7 SUPPORT.</h1><br />
-                            <p>Guidance and support are always in reach. We provide care for you whenever needed.</p>
-                        </div>
-                    </div> 
-        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
     </>
   )
 }

@@ -22,23 +22,10 @@ const Section1 = () => {
 
     <div className='section1-header container'>
         <h2>Our Substance Abuse Services</h2>
-        <h1>We Have Years Professional Experience in Psychology and Substance Abuse Counseling</h1>
+        <h1>We Have Years of Professional Experience in Psychology and Substance Abuse Counseling</h1>
     </div>
 
 <div className='section1-content'>
-
-
-
-<div class="card section1-card" >
-    <div >
-        <img src={mh1} alt="Conselling Session with a patient" loading="lazy" />
-    </div>
-    <div class="card-body">
-        <h5 class="card-title">Alcohol</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <p class="btn btn-dark">Learn More</p>
-    </div>
-</div>
 
 
 <div class="card section1-card" >
@@ -46,8 +33,20 @@ const Section1 = () => {
         <img src={mh2} alt="Conselling Session with a patient" loading="lazy" />
     </div>
     <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title">Cocaine Addiction</h5>
+        <p class="card-text">Cocaine is a highly addictive drug, but it may be hard to recognize an addiction to it. Craving Cocaine and ignoring the consequences that come with it are signs of an addiction.</p>
+        <p class="btn btn-dark">Learn More</p>
+    </div>
+</div>
+
+
+<div class="card section1-card" >
+    <div >
+        <img src={mh1} alt="Conselling Session with a patient" loading="lazy" />
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Alcoholism</h5>
+        <p class="card-text">Alcoholism is the inability to control drinking due to both a physical and emotional dependence on alcohol. A chronic disease characterized by uncontrolled drinking and preoccupation with alcohol.</p>
         <p class="btn btn-dark">Learn More</p>
     </div>
 </div>
@@ -58,8 +57,8 @@ const Section1 = () => {
         <img src={mh3} alt="Conselling Session with a patient" loading="lazy" />
     </div>
     <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title">Fentanyl Addiction</h5>
+        <p class="card-text">It is a prescription drug that is also made and used illegally. Like morphine, it is a medicine that is typically used to treat patients with severe pain, especially after surgery.</p>
         <p class="btn btn-dark">Learn More</p>
     </div>
 </div>

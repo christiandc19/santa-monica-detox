@@ -5,7 +5,7 @@ import App from './App';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import TreatmentPage from './routes/TreatmentPage'
+import ProgramsPage from './routes/ProgramsPage'
 import MissionPage from './routes/MissionPage'
 import AboutPage from './routes/AboutPage'
 import ResidencePage from './routes/ResidencePage'
@@ -77,7 +77,7 @@ ReactDOM.render(
       <Route exact path='/substance-abuse' element={<SA />} />
 
       <Route exact path='/jobs' element={<Jobs />} />
-      <Route exact path='/treatment' element={<TreatmentPage />} />
+      <Route exact path='/programs' element={<ProgramsPage />} />
       <Route exact path='/mission' element={<MissionPage />} />
 
       <Route exact path='/about-us' element={<AboutPage />} />

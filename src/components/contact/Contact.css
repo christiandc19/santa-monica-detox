@@ -23,8 +23,8 @@
 .contact-hero .contact-hero-content {
     display: block;
     position: absolute;
-    top: 40%;
-    padding: 1rem;
+    top: 30%;
+    padding: .5rem 1rem;
 }
 
 .contact-hero h1 {

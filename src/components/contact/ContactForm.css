@@ -1,3 +1,7 @@
+.contact-form-content {
+  padding: 3rem 0;
+}
+
 
 .contact-container {
     width: 100%;
@@ -11,19 +15,27 @@
   .contact-container:before {
     content: '';
     position: absolute;
-    background: url('../../assets/contact-form-bg.jpg') no-repeat center center/cover;
     height: 50%;
     width: 100%;
     z-index: -1;
     top: 25%;
   }
+
+  .contact-left {
+    width: 600px;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  .contact-left img {
+    width: 100%;
+  }
   
   .get_form_inner {
-    display: block;
     padding: 2rem 2rem ;
     background: #fff;
     box-shadow: -4px -2px 20px -7px #cfd5df;
-    margin: 4rem 2rem 2rem 3rem;
+    margin: auto;
   }
 
 input {
@@ -82,14 +94,19 @@ input {
   }
 
   input[type="submit"]:hover {
-    background-color: rgb(212, 42, 212);
+    background-color: rgb(241, 134, 33);
     border-color: var(--secondary-color);
     color: #fff;
   }
 
+
+  /* CARDS */
+
   .contact-cards-container {
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 330px;
+
   }
 
   .get_form_inner2 {

@@ -37,6 +37,7 @@
     font-size: 3.5rem;
     color: var(--primary-text);
     font-family: 'Bacasime Antique', serif;
+    line-height: 3rem;
 }
 
 .wwa .right h3 {
@@ -72,12 +73,25 @@
 
     .wwa .right h2 {
         font-size: 2rem;
+        text-align: center;
     }
+
+    .wwa .right h3 {
+        text-align: center;
+    }
+
 
     .wwa .right p {
         font-size: 14px;
+        text-align: center;
     }
     
 }
 
 
+
+@media screen and (max-width:700px) {
+    .wwa .right h2 {
+        line-height: 2rem;
+    }
+}
