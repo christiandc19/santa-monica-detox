@@ -25,13 +25,8 @@ import OXYCODONE from './routes/OXYCODONE';
 import PRESCRIPTIONS from './routes/PRESCRIPTIONS';
 import XANAX from './routes/XANAX';
 
-
-
 import SA from './routes/SA';
-
-
 import Jobs from './routes/JOBS';
-import Team from './routes/Team';
 
 
 ReactDOM.render(
@@ -58,7 +53,6 @@ ReactDOM.render(
       <Route exact path='/mission' element={<MissionPage />} />
 
       <Route exact path='/about-us' element={<AboutPage />} />
-      <Route exact path='/team' element={<Team />} />
 
       <Route exact path='/residence' element={<ResidencePage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />
