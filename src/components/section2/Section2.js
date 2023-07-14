@@ -24,7 +24,7 @@ const Section2 = () => {
 
                 <div className='section1-btn'>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                <Link to="/treatment">
+                <Link to="/programs">
                 <button type="button" class="btn btn-outline-primary">Learn More</button>
                 </Link>
                 </LinkRoll>

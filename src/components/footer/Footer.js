@@ -1,9 +1,8 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import logo from '../../assets/nav-logo-2.png'
 import './FooterStyles.css'
-
+import {Link} from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
 
 const Footer = () => {
@@ -27,7 +26,9 @@ const Footer = () => {
                         <h3>Company</h3>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mission'><p>Our Mission</p></Link>
+                        <Link to='/mission'>
+                            <p>Our Mission</p>
+                        </Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
