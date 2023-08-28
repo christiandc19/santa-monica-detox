@@ -21,16 +21,16 @@
 .job-section-left {
     width: 50%;
     padding: 1rem;
+    margin: auto;
 }
 
 .job-section-right {
-    width: 400px;
+    width: 500px;
     padding: 1rem;
 }
 
 .job-section-right img {
     width: 100%;
-    border-radius: 1rem;
 }
 
 .job-section-content p {
