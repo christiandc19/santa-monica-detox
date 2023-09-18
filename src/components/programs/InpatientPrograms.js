@@ -1,6 +1,6 @@
 import React from 'react'
 import './InpatientPrograms.css'
-import inpatientIMG from '../../assets/inpatientIMG.jpg'
+import inpatientIMG from '../../assets/home7.png'
 
 const InpatientPrograms = () => {
   return (

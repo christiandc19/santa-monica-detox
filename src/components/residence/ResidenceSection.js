@@ -13,6 +13,8 @@ import Home5 from '../../assets/home5.png'
 import Home6 from '../../assets/home6.png'
 import Home7 from '../../assets/home7.png'
 import Home8 from '../../assets/home8.png'
+import Home9 from '../../assets/home9.png'
+import Home10 from '../../assets/home10.png'
 
 
 
@@ -29,53 +31,65 @@ const ResidenceSection = () => {
 
 
 
-<div className='flex-right container'>
+<div className='residence-section-flex container'>
                     <Fade left>
-                    <div className='thumbnail'>
-                        <img src={ Home1 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <div className='residence-section-flex-item'>
+                        <img src={ Home1 } alt="Home" loading="lazy"/>
                     </div>
                     </Fade>
 
 
                     <Fade right>
-                    <div className='thumbnail'>
-                    <img src={ Home2 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <div className='residence-section-flex-item'>
+                    <img src={ Home2 } alt="Home" loading="lazy"/>
                     </div>
                     </Fade>
 
                     <Fade left>
-                    <div className='thumbnail'>
-                    <img src={ Home3 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <div className='residence-section-flex-item'>
+                    <img src={ Home3 } alt="Home" loading="lazy"/>
                     </div>
                     </Fade>
 
                     <Fade right>
-                    <div className='thumbnail'>
-                    <img src={ Home4 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <div className='residence-section-flex-item'>
+                    <img src={ Home4 } alt="Home" loading="lazy"/>
                     </div>
                     </Fade>                 
 
                     <Fade left>
-                    <div className='thumbnail'>
-                    <img src={ Home5 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <div className='residence-section-flex-item'>
+                    <img src={ Home5 } alt="Home" loading="lazy"/>
                     </div>
 
                     </Fade>                          
                     <Fade right>
-                    <div className='thumbnail'>
-                    <img src={ Home6 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <div className='residence-section-flex-item'>
+                    <img src={ Home6 } alt="Home" loading="lazy"/>
                     </div>
                     </Fade>                          
 
                     <Fade left>
-                    <div className='thumbnail'>
-                    <img src={ Home7 } width="500" height="400" alt="Home" loading="lazy"/>
+                    <div className='residence-section-flex-item'>
+                    <img src={ Home7 } alt="Home" loading="lazy"/>
                     </div>
                     </Fade>   
 
                     <Fade right>
-                    <div className='thumbnail'>
-                    <img src={ Home8 } width="500" height="400" alt="PHome" loading="lazy"/>
+                    <div className='residence-section-flex-item'>
+                    <img src={ Home8 } alt="PHome" loading="lazy"/>
+                    </div>
+                    </Fade>  
+
+                    <Fade right>
+                    <div className='residence-section-flex-item'>
+                    <img src={ Home9 } alt="PHome" loading="lazy"/>
+                    </div>
+                    </Fade>  
+
+                    <Fade right>
+                    <div className='residence-section-flex-item'>
+                    <img src={ Home10 } alt="PHome" loading="lazy"/>
                     </div>
                     </Fade>  
 

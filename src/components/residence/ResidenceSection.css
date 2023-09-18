@@ -18,4 +18,21 @@
 }
 
 
+.residence-section-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.residence-section-flex-item {
+  width: 350px;
+}
+
+.residence-section-flex-item img {
+  width: 100%;
+}
+
+
+
 
