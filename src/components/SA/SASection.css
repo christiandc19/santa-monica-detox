@@ -6,7 +6,7 @@
 }
 
 .sa-thumbnail-header h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Bacasime Antique', serif;
 }
 
@@ -18,13 +18,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: .5rem;
 }
 
 .sa-thumbnail {
-  width: 200px;
+  width: 350px;
   height: auto;
-  background-color: rgba(29, 27, 27, 0.171);
+  -webkit-box-shadow: 0px 0px 17px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 17px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 17px -8px rgba(0,0,0,0.75);
 }
 
 .sa-thumbnail h1 {

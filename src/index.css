@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
 
 :root {
-  --primary-color: rgb(96,61,32);
+  --primary-color: #49a3b3;
   --primary-text:  rgb(26, 24, 41);
   --primary-dark: #6db193;
   --secondary-color: rgb(20, 162, 180);
@@ -41,6 +43,7 @@ a {
 
 a:hover {
   color: rgb(20, 162, 180);
+  text-decoration: none;
 }
 
 p {

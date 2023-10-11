@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+.ATSection {
+    padding: 5rem 0;
+}
+
+.ATSection h1 {
+    font-size: 2rem;
+    font-family: 'Bacasime Antique', serif;
+    color: var(--primary-text);
+    line-height: 3rem;
+    padding: .5rem 0;
+}
+
+.ATSection-header {
+    text-align: center;
+    padding: 1rem;
+}
+
+.ATSection-header h2 {
+    font-family: 'Outfit', sans-serif;    
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.ATSection-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.ATSection-content h5 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.ATSection-card {
+    width: 25%;
+}
+
+.ATSection-card img {
+    width: 100%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+@media screen and (max-width:800px) {
+    .ATSection-card {
+        width: 80%;
+    }
+
+    .ATSection h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    
+}

@@ -22,9 +22,9 @@ const Section2 = () => {
                 <p>Our goal is to make the detox process as safe and comfortable as possible. Medical detoxification, or medical detox, is the first step in recovery from drug or alcohol addiction to safely manage withdrawal symptoms in individuals who have become physically dependent on a substance.</p> 
                 <p>Withdrawal from drugs or alcohol can be life-threatening if not properly supervised by professionals. We offer a medically supervised detox that provides individualized treatment and around-the-clock care. Upon intake, clients meet with a physician who conducts a comprehensive evaluation and designs an individualized detoxification protocol using medication-assisted therapy.</p>
 
-                <div className='section1-btn'>
+                <div className='section2-btn'>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                <Link to="/programs">
+                <Link to="/detox">
                 <button type="button" class="btn btn-outline-primary">Learn More</button>
                 </Link>
                 </LinkRoll>

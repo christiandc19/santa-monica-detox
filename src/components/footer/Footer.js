@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
-import logo from '../../assets/nav-logo-2.png'
+import logo from '../../assets/nav-logo-wh.png'
 import './FooterStyles.css'
 import {Link} from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                    <img src={logo} alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} alt="Santa Monica Detox Logo" loading="lazy"/>
                     </div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='footer-icon' />

@@ -4,17 +4,17 @@
     width: 100%;
     height: 100%;
     position: relative;
-    background: rgba(124, 76, 5, 0.055);
   }
   
   .section2:before {
     content: '';
     position: absolute;
-    background: url('../../assets/detox-bg-min.jpg') no-repeat center center/cover;
+    background: url('../../assets/section-bg.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
-    opacity: 0.3;
-    
+    z-index: -1;
+    opacity: 0.03;
+
   }
 
 .section2 {
@@ -58,6 +58,7 @@
 }
 
 .section2-flex-left h1 {
+    font-size: 1.2rem;
     padding: 1rem 0;
 }
 
@@ -78,13 +79,29 @@
 }
 
 
+.section2-btn button {
+    background-color: #49a3b3;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: .7rem 2rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+
+.section2-btn button:hover {
+  background-color: #61ce70;
+}
+
 /* @media screen and (max-width:1200px) {
     .section2-flex-left {
         width: 100%;
     }
 } */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:960px) {
     .section2-content h1 {
             font-size: 2rem;
         }
@@ -105,7 +122,7 @@
             text-align: center;
         }
 
-        .section2-flex-left .section1-btn {
+        .section2-flex-left .section2-btn {
             text-align: center;
         }
         

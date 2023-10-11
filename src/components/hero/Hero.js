@@ -3,31 +3,22 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-import BgVideo from '../../assets/bg-video1.mp4'
-
-
 const Hero = () => {
     return (
 <>        
-
         <div className='hero'>
-            <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
-
-
-
             <div className="hero-container">
 
                 <div className="content">
-                    <Fade left>
-                        <p> WELCOME TO</p>
-                    </Fade>
-                    <Fade right>
-                        <h1> Santa Monica <br/>Detox</h1>
-                    </Fade>
-                    <Fade left>
-                        <h2>The first step to a healthier you starts here!</h2>
-                    </Fade>
-                        <br />
+                        <Fade left>
+                        <h1>WELCOME TO SANTA MONICA DETOX</h1>
+                        </Fade>
+                        <Fade right>
+                        <h2>Support. Recovery. Journey.</h2>
+                        </Fade>
+                        <Fade bottom >
+                        <h3>Top Quality Detox Center in Los Angeles, California</h3>
+                        </Fade>
                         <div className='hero-btn'>
                         <Link to="/contact">
                             <button>Contact Us</button>

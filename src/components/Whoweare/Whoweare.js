@@ -11,6 +11,7 @@ const Whoweare = () => {
   return (
 <>
 
+<div className='wwa-bg'>
 
 <div className='wwa'>
 
@@ -30,7 +31,7 @@ const Whoweare = () => {
     </Fade>
 
 </div>
-
+</div>
 </>
   )
 }

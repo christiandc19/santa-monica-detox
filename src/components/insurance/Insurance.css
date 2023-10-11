@@ -3,12 +3,12 @@
 
 .insurance {
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(21, 3, 27, 0.521);
+    background-color: rgba(0, 0, 0, 0.479);
   }
   
   .insurance:before {
@@ -23,7 +23,7 @@
 .insurance .insurance-content {
     display: block;
     position: absolute;
-    top: 40%;
+    bottom: 20%;
     padding: 1rem;
 }
 
@@ -37,14 +37,10 @@
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:600px) {
 
-.insurance h2 {
-    color: white;
-    font-size: 1.5rem;
-}
 
 .insurance h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 }

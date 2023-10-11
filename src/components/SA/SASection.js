@@ -12,7 +12,7 @@ const MHSection = () => {
     <>
 
             <div className="sa-thumbnail-header container">
-                <h1>SANTA MONICA DETOX CENTER OFFERS VARIOUS SUBSTANCE ABUSE PROGRAMS </h1>
+                <h1>Santa Monica Detox Offers Various Substance Abuse Programs</h1>
                 <p>We treat a multitude of substance use disorders. Whether the client is suffering from an alcohol addiction, prescription drug addiction, we can help. </p>
             </div>
             

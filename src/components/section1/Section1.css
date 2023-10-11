@@ -2,20 +2,25 @@
 
 .section1 {
     padding: 5rem 0;
-    background-color: #f8f9fa;
 }
 
 .section1 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Bacasime Antique', serif;
     color: var(--primary-text);
     line-height: 3rem;
-    padding: 2rem 0;
+    padding: .5rem 0;
 }
 
 .section1-header {
     text-align: center;
     padding: 1rem;
+}
+
+.section1-header h2 {
+    font-family: 'Outfit', sans-serif;    
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 .section1-content {
@@ -26,7 +31,7 @@
 }
 
 .section1-card {
-    width: 25%;
+    width: 350px;
 }
 
 .section1-card img {

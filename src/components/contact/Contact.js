@@ -14,7 +14,7 @@ const Contact = () => {
 
             <div className="contact-hero-content">
             <Fade top>
-                    <h1>HAVE SOME QUESTIONS?</h1>
+                    <h1>Contact Us Today</h1>
             </Fade>
             <Fade right>
                   <p>Our Addiction and Recovery Support team is available to assist you. </p>
