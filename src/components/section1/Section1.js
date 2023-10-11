@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import mh1 from '../../assets/mh1.jpg'
 import mh2 from '../../assets/PhpSection1.jpg'
 import mh3 from '../../assets/PhpSection2.jpg'
-import mh4 from '../../assets/home1.png'
+import mh4 from '../../assets/home1.webp'
 import mh5 from '../../assets/submenu-bg-jobs-min.webp'
 
 const Section1 = () => {

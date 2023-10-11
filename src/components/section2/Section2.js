@@ -1,6 +1,6 @@
 import React from 'react'
 import './Section2.css'
-import home6 from '../../assets/home6.png'
+import home6 from '../../assets/home6.webp'
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 import { Link as LinkRoll } from 'react-scroll'

@@ -5,16 +5,16 @@ import Fade from 'react-reveal/Fade';
 import './ResidenceSection.css'
 
 
-import Home1 from '../../assets/home1.png'
-import Home2 from '../../assets/home2.png'
-import Home3 from '../../assets/home3.png'
-import Home4 from '../../assets/home4.png'
-import Home5 from '../../assets/home5.png'
-import Home6 from '../../assets/home6.png'
-import Home7 from '../../assets/home7.png'
-import Home8 from '../../assets/home8.png'
-import Home9 from '../../assets/home9.png'
-import Home10 from '../../assets/home10.png'
+import Home1 from '../../assets/home1.webp'
+import Home2 from '../../assets/home2.webp'
+import Home3 from '../../assets/home3.webp'
+import Home4 from '../../assets/home4.webp'
+import Home5 from '../../assets/home5.webp'
+import Home6 from '../../assets/home6.webp'
+import Home7 from '../../assets/home7.webp'
+import Home8 from '../../assets/home8.webp'
+import Home9 from '../../assets/home9.webp'
+import Home10 from '../../assets/home10.webp'
 
 
 
