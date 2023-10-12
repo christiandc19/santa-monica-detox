@@ -5,8 +5,18 @@
     width: 100%;
     height: auto;
     position: relative;
-    padding: 5rem 0;
-}
+  }
+  
+  .InsuranceSection:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/section-bg.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.03;
+  }
+
 
 .InsuranceSection .insuranceSectionContent {
     display: flex;
@@ -14,8 +24,7 @@
     justify-content: center;
     gap: 1rem;
     width: 100%;
-    padding: 2rem 0;
-
+    padding: 3rem 0;
 }
 
 .InsuranceSection-container {

@@ -9,8 +9,7 @@ const Alcohol = () => {
         <div className='alcohol'>
                 <div className="sa-content">
                     <Fade top>
-                    <h3>- ADDICTION</h3>
-                    <h1>ALCOHOLISM</h1>
+                    <h1>ALCOHOL ADDICTION</h1>
                     </Fade>
             </div>
         </div>
